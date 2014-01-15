@@ -1,0 +1,30 @@
+//============================================================================
+// Name        : sig_test.cpp
+// Author      : wtl
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <sys/socket.h>
+#include <signal.h>
+#include <fcntl.h>
+#include <sys/epoll.h>
+using namespace std;
+static int pipefd[2];
+int setnonblocking(int fd)
+{
+	int old_option=fcntl(fd,F_GETFL);
+	int new_option=old_option | O_NONBLOCK;
+	fcntl(fd,F_SETFL,new_option);
+	return old_option;
+}
+void addfd(int fd)
+{
+	epoll_event event;
+}
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}
