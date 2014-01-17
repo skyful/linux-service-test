@@ -1,0 +1,649 @@
+!SESSION 2013-09-14 08:45:27.547 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-09-14 08:48:00.919
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-09-14 08:55:36.929
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2013-09-14 08:55:36.929
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.930
+!MESSAGE Software being installed: Eclipse Platform 3.7.0.I20110613-1736 (org.eclipse.platform.ide 3.7.0.I20110613-1736)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.930
+!MESSAGE Software currently installed: Eclipse IDE for C/C++ Developers 2.0.0.20130613-0530 (epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.930
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.930
+!MESSAGE Eclipse Platform 4.3.0.v20130605-2000 (org.eclipse.platform 4.3.0.v20130605-2000)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.930
+!MESSAGE Eclipse Platform 3.7.1.v201109091335 (org.eclipse.platform 3.7.1.v201109091335)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.931
+!MESSAGE Eclipse Platform 3.7.2.dist (org.eclipse.platform 3.7.2.dist)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.931
+!MESSAGE Eclipse Platform 3.7.0.v201106131736 (org.eclipse.platform 3.7.0.v201106131736)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.931
+!MESSAGE Eclipse Platform 3.7.2.v201202080800 (org.eclipse.platform 3.7.2.v201202080800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.931
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.931
+!MESSAGE From: Eclipse IDE for C/C++ Developers 2.0.0.20130613-0530 (epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.932
+!MESSAGE To: org.eclipse.epp.package.cpp.feature.feature.group [2.0.0.20130613-0530]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.932
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.932
+!MESSAGE From: EPP CPP Bundle 2.0.0.20130613-0530 (org.eclipse.epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.932
+!MESSAGE To: bundle org.eclipse.platform [4.3.0,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.932
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.932
+!MESSAGE From: EPP CPP Feature 2.0.0.20130613-0530 (org.eclipse.epp.package.cpp.feature.feature.group 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.933
+!MESSAGE To: org.eclipse.epp.package.cpp [2.0.0.20130613-0530]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.933
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.933
+!MESSAGE From: Eclipse Platform 3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH (org.eclipse.platform.feature.group 3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.933
+!MESSAGE To: org.eclipse.platform [3.7.2.dist]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.933
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.933
+!MESSAGE From: Eclipse Platform 3.7.0.I20110613-1736 (org.eclipse.platform.ide 3.7.0.I20110613-1736)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.934
+!MESSAGE To: org.eclipse.platform.feature.group [3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-09-14 08:55:36.966
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2013-09-14 08:55:36.966
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.966
+!MESSAGE Software being installed: Eclipse Platform 3.7.0.I20110613-1736 (org.eclipse.platform.ide 3.7.0.I20110613-1736)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.966
+!MESSAGE Software currently installed: Eclipse IDE for C/C++ Developers 2.0.0.20130613-0530 (epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.967
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.967
+!MESSAGE Eclipse Platform 4.3.0.v20130605-2000 (org.eclipse.platform 4.3.0.v20130605-2000)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.967
+!MESSAGE Eclipse Platform 3.7.1.v201109091335 (org.eclipse.platform 3.7.1.v201109091335)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.967
+!MESSAGE Eclipse Platform 3.7.2.dist (org.eclipse.platform 3.7.2.dist)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.967
+!MESSAGE Eclipse Platform 3.7.0.v201106131736 (org.eclipse.platform 3.7.0.v201106131736)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.968
+!MESSAGE Eclipse Platform 3.7.2.v201202080800 (org.eclipse.platform 3.7.2.v201202080800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.968
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.968
+!MESSAGE From: Eclipse IDE for C/C++ Developers 2.0.0.20130613-0530 (epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.968
+!MESSAGE To: org.eclipse.epp.package.cpp.feature.feature.group [2.0.0.20130613-0530]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.968
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.968
+!MESSAGE From: EPP CPP Bundle 2.0.0.20130613-0530 (org.eclipse.epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.969
+!MESSAGE To: bundle org.eclipse.platform [4.3.0,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.969
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.969
+!MESSAGE From: EPP CPP Feature 2.0.0.20130613-0530 (org.eclipse.epp.package.cpp.feature.feature.group 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.969
+!MESSAGE To: org.eclipse.epp.package.cpp [2.0.0.20130613-0530]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.969
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.970
+!MESSAGE From: Eclipse Platform 3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH (org.eclipse.platform.feature.group 3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.970
+!MESSAGE To: org.eclipse.platform [3.7.2.dist]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:36.970
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.970
+!MESSAGE From: Eclipse Platform 3.7.0.I20110613-1736 (org.eclipse.platform.ide 3.7.0.I20110613-1736)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:36.970
+!MESSAGE To: org.eclipse.platform.feature.group [3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-09-14 08:55:37.064
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2013-09-14 08:55:37.065
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.066
+!MESSAGE Software being installed: Eclipse Platform 3.7.0.I20110613-1736 (org.eclipse.platform.ide 3.7.0.I20110613-1736)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.066
+!MESSAGE Software currently installed: Eclipse IDE for C/C++ Developers 2.0.0.20130613-0530 (epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.067
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.067
+!MESSAGE Eclipse Platform 4.3.0.v20130605-2000 (org.eclipse.platform 4.3.0.v20130605-2000)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.068
+!MESSAGE Eclipse Platform 3.7.1.v201109091335 (org.eclipse.platform 3.7.1.v201109091335)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.069
+!MESSAGE Eclipse Platform 3.7.2.dist (org.eclipse.platform 3.7.2.dist)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.069
+!MESSAGE Eclipse Platform 3.7.0.v201106131736 (org.eclipse.platform 3.7.0.v201106131736)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.070
+!MESSAGE Eclipse Platform 3.7.2.v201202080800 (org.eclipse.platform 3.7.2.v201202080800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.070
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.071
+!MESSAGE From: Eclipse IDE for C/C++ Developers 2.0.0.20130613-0530 (epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.071
+!MESSAGE To: org.eclipse.epp.package.cpp.feature.feature.group [2.0.0.20130613-0530]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.072
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.072
+!MESSAGE From: EPP CPP Bundle 2.0.0.20130613-0530 (org.eclipse.epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.073
+!MESSAGE To: bundle org.eclipse.platform [4.3.0,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.074
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.074
+!MESSAGE From: EPP CPP Feature 2.0.0.20130613-0530 (org.eclipse.epp.package.cpp.feature.feature.group 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.075
+!MESSAGE To: org.eclipse.epp.package.cpp [2.0.0.20130613-0530]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.075
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.076
+!MESSAGE From: Eclipse Platform 3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH (org.eclipse.platform.feature.group 3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.077
+!MESSAGE To: org.eclipse.platform [3.7.2.dist]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.077
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.078
+!MESSAGE From: Eclipse Platform 3.7.0.I20110613-1736 (org.eclipse.platform.ide 3.7.0.I20110613-1736)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.078
+!MESSAGE To: org.eclipse.platform.feature.group [3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-09-14 08:55:37.082
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2013-09-14 08:55:37.083
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.083
+!MESSAGE Software being installed: Eclipse Platform 3.7.0.I20110613-1736 (org.eclipse.platform.ide 3.7.0.I20110613-1736)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.084
+!MESSAGE Software currently installed: Eclipse IDE for C/C++ Developers 2.0.0.20130613-0530 (epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.084
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.085
+!MESSAGE Eclipse Platform 4.3.0.v20130605-2000 (org.eclipse.platform 4.3.0.v20130605-2000)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.086
+!MESSAGE Eclipse Platform 3.7.1.v201109091335 (org.eclipse.platform 3.7.1.v201109091335)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.086
+!MESSAGE Eclipse Platform 3.7.2.dist (org.eclipse.platform 3.7.2.dist)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.087
+!MESSAGE Eclipse Platform 3.7.0.v201106131736 (org.eclipse.platform 3.7.0.v201106131736)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.087
+!MESSAGE Eclipse Platform 3.7.2.v201202080800 (org.eclipse.platform 3.7.2.v201202080800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.088
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.088
+!MESSAGE From: Eclipse IDE for C/C++ Developers 2.0.0.20130613-0530 (epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.089
+!MESSAGE To: org.eclipse.epp.package.cpp.feature.feature.group [2.0.0.20130613-0530]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.089
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.090
+!MESSAGE From: EPP CPP Bundle 2.0.0.20130613-0530 (org.eclipse.epp.package.cpp 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.090
+!MESSAGE To: bundle org.eclipse.platform [4.3.0,5.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.091
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.092
+!MESSAGE From: EPP CPP Feature 2.0.0.20130613-0530 (org.eclipse.epp.package.cpp.feature.feature.group 2.0.0.20130613-0530)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.092
+!MESSAGE To: org.eclipse.epp.package.cpp [2.0.0.20130613-0530]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.093
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.093
+!MESSAGE From: Eclipse Platform 3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH (org.eclipse.platform.feature.group 3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.094
+!MESSAGE To: org.eclipse.platform [3.7.2.dist]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2013-09-14 08:55:37.095
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.095
+!MESSAGE From: Eclipse Platform 3.7.0.I20110613-1736 (org.eclipse.platform.ide 3.7.0.I20110613-1736)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2013-09-14 08:55:37.096
+!MESSAGE To: org.eclipse.platform.feature.group [3.7.2.dist-9nF7UHagFqn9pElwWhC90gLz-soEuSGYmtSeiRH]
+!SESSION 2013-09-14 09:07:45.469 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-09-14 09:09:31.640
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-09-14 09:11:18.592
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-09-14 09:11:18.603
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob$ProgressUpdateJob
+!SESSION 2013-09-16 20:36:43.021 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-09-16 20:37:11.705
+!MESSAGE Indexed 'ctest' (1 sources, 13 headers) in 0.44 sec: 1 declarations; 0 references; 14 unresolved inclusions; 0 syntax errors; 3 unresolved names (75.00%)
+!SESSION 2013-09-16 20:45:53.241 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-09-16 20:47:25.804
+!MESSAGE Indexed 'socketTest' (0 sources, 34 headers) in 0.83 sec: 655 declarations; 799 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2013-09-16 21:23:43.915 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 567 2013-09-16 21:23:45.369
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2013-09-16 21:23:45.369
+!MESSAGE Could not read metadata for 'socketTest'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'socketTest' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:874)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:854)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:703)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1528)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2503)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2251)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:299)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:268)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:463)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:400)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:266)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2013-09-16 21:23:45.370
+!MESSAGE The project description file (.project) for 'socketTest' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2014-01-01 09:17:09.891 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 0 2014-01-01 09:17:45.286
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ant.internal.ui.AntUtil.isKnownAntFile(AntUtil.java:594)
+	at org.eclipse.ant.internal.ui.launchConfigurations.AntLaunchShortcut.launch(AntLaunchShortcut.java:466)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:424)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:217)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:286)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:140)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:82)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.run(AbstractLaunchToolbarAction.java:79)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:404)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-01 09:17:58.483
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ant.internal.ui.AntUtil.isKnownAntFile(AntUtil.java:594)
+	at org.eclipse.ant.internal.ui.launchConfigurations.AntLaunchShortcut.launch(AntLaunchShortcut.java:466)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:424)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:217)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:286)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:140)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:82)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.run(AbstractLaunchToolbarAction.java:79)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:404)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-01 09:18:03.752
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ant.internal.ui.AntUtil.isKnownAntFile(AntUtil.java:594)
+	at org.eclipse.ant.internal.ui.launchConfigurations.AntLaunchShortcut.launch(AntLaunchShortcut.java:466)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:424)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:217)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:286)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:140)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:82)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.run(AbstractLaunchToolbarAction.java:79)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:404)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-01 09:18:19.855
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ant.internal.ui.AntUtil.isKnownAntFile(AntUtil.java:594)
+	at org.eclipse.ant.internal.ui.launchConfigurations.AntLaunchShortcut.launch(AntLaunchShortcut.java:466)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:424)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:217)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:286)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:140)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:82)
+	at org.eclipse.debug.internal.ui.actions.RelaunchLastAction.run(RelaunchLastAction.java:77)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-01 09:18:22.435
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ant.internal.ui.AntUtil.isKnownAntFile(AntUtil.java:594)
+	at org.eclipse.ant.internal.ui.launchConfigurations.AntLaunchShortcut.launch(AntLaunchShortcut.java:466)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:424)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:217)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:286)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:140)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:82)
+	at org.eclipse.debug.internal.ui.actions.RelaunchLastAction.run(RelaunchLastAction.java:77)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SESSION 2014-01-05 18:38:18.760 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-05 18:47:10.227
+!MESSAGE Indexed 'service' (0 sources, 76 headers) in 1.81 sec: 2,139 declarations; 2,375 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2014-01-05 18:47:25.039
+!MESSAGE Cannot add P/service to the list of segments in P/service::P/tt:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/service to the list of segments in P/service::P/tt:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:524)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:591)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:592)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:320)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1689)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:607)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1626)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2401)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.frameChanged(TreeViewerFrameSource.java:71)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.frameChanged(CommonNavigatorFrameSource.java:50)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.handlePropertyChange(TreeViewerFrameSource.java:172)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource$1.propertyChange(TreeViewerFrameSource.java:47)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.firePropertyChange(FrameList.java:90)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.setCurrent(FrameList.java:205)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.gotoFrame(FrameList.java:162)
+	at org.eclipse.ui.internal.navigator.framelist.GoIntoAction.run(GoIntoAction.java:50)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SESSION 2014-01-07 22:58:21.772 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 0 2014-01-07 23:02:56.828
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.corext.util.Resources.makeCommittable(Resources.java:104)
+	at org.eclipse.cdt.ui.actions.FormatAllAction.run(FormatAllAction.java:244)
+	at org.eclipse.cdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:196)
+	at org.eclipse.cdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:174)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3588)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3209)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:622)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SESSION 2014-01-14 23:25:33.411 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-14 23:26:26.215
+!MESSAGE Indexed 'sig_test' (1 sources, 148 headers) in 8.33 sec: 10,244 declarations; 15,479 references; 0 unresolved inclusions; 7 syntax errors; 71 unresolved names (0.28%)
