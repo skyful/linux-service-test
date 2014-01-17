@@ -1,7 +1,0 @@
-
-**** Build of configuration Debug for project sig_test ****
-
-make sigtest 
-make: *** 没有规则可以创建目标“sigtest”。 停止。
-
-**** Build Finished ****

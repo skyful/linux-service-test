@@ -12,7 +12,9 @@
 #include<sys/epoll.h>
 #include<errno.h>
 #define EVENT_MAX_NUMBER 1024
+#define USER_MAX_NUMBER  65536
 static int pipefd[2];
+
 void setnonblocking(int fd)
 {
 	int old_option=fcntl(fd,F_GETFL);
@@ -46,6 +48,7 @@ void addsig(int sig)
 	sa.sa_flags |=SA_RESTART;
 	sigfillset(&sa.sa_mask);
 	assert(sigaction(sig,&sa,NULL)!=-1);
+	
 }
 int main(int argc ,char* argv[])
 {
