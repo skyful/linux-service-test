@@ -3,3 +3,12 @@
 2014-01-19：
 wtl
 代码完成但是没有通过实例测试
+
+2014-01-20:
+wtl
+通过测试用例configfile_test.cpp测试通过，测试过程中遇到下列问题:
+string str;
+str.find(key)的返回值问题
+如果成功返回字符串的起始下标，如果没有找到则返回string::npos，这个值并不一定是-1,不同的系统可能会不同
+所以不能这样判断if(str.find(key)>=0) 应该写成 if(string::npos!=str.find(key))
+

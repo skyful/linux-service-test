@@ -59,7 +59,7 @@ bool ConfigFile::open(const string path)
  bool ConfigFile::save()
 {
 	bool ret=false;
-	ofstream file_out(m_path.c_str(),ios_base::out);
+	fstream file_out(m_path.c_str(),ios_base::out);
 	if(file_out.is_open())
 	{
 		vector<string>::iterator iter;
@@ -152,7 +152,7 @@ void ConfigFile::set_vector_value(const string key,const string value)
 				if(pos>=0)
 				{
 					string left=str.substr(0,pos);
-					if(left.find(key))
+					if(string::npos!=left.find(key))
 					{
 						(*iter).replace(pos+1,len-pos-1,value);
 						findkey=true;
@@ -163,6 +163,7 @@ void ConfigFile::set_vector_value(const string key,const string value)
 		if(!findkey)
 		{
 			string str=key+'='+value;
+			m_data.push_back(str);
 		}
 	}
 }
