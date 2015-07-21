@@ -1,5 +1,8 @@
 #ifndef _MEMERYPOOL1_H
 #define _MEMERYPOOL1_H
+#include <stdio.h>
+#include <stdlib.h>
+#define null 0
 struct block{
 	char* head;
 	block* next;
